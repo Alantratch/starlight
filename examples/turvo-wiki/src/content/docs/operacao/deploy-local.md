@@ -9,7 +9,7 @@ Execute `pnpm --filter @example/turvo-wiki build`. O resultado estático fica em
 
 ## Publicação controlada
 
-Hospede o conteúdo em uma aplicação estática dentro da infraestrutura local autorizada, por exemplo uma VM ou container no Proxmox gerenciado pelo Coolify. Não adicione workflow de deploy público automático neste repositório.
+Hospede o conteúdo em uma aplicação estática dentro da infraestrutura local autorizada, por exemplo uma VM ou container no Proxmox gerenciado pelo Coolify. O workflow do GitHub Pages deste exemplo só publica após alteração na `main` ou disparo manual, e não substitui a proteção de acesso.
 
 ## Proteção
 

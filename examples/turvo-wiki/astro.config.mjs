@@ -3,6 +3,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
+	site: 'https://alantratch.github.io',
+	base: '/starlight',
 	integrations: [
 		starlight({
 			title: 'Wiki Interna — Prefeitura de Turvo/PR',
