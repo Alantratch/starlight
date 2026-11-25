@@ -270,6 +270,18 @@ importers:
         specifier: ^0.35.3
         version: 0.35.4(@types/node@24.12.4)
 
+  examples/turvo-wiki:
+    dependencies:
+      '@astrojs/starlight':
+        specifier: ^0.43.1
+        version: link:../../packages/starlight
+      astro:
+        specifier: ^7.3.6
+        version: 7.4.4(@astrojs/markdown-remark@7.3.5(supports-color@10.2.2))(@types/node@24.12.4)(esbuild@0.28.0)(jiti@2.7.0)(yaml@2.9.1)
+      sharp:
+        specifier: ^0.35.3
+        version: 0.35.4(@types/node@24.12.4)
+
   examples/markdoc:
     dependencies:
       '@astrojs/markdoc':

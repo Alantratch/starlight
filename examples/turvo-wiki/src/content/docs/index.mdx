@@ -1,0 +1,43 @@
+---
+title: Wiki Interna da Prefeitura de Turvo/PR
+description: Catálogo institucional de sistemas, acessos e procedimentos.
+template: splash
+hero:
+  tagline: Conhecimento institucional com fonte, responsável e procedimento verificáveis.
+  actions:
+    - text: Ver setores
+      link: /setores/administracao/
+      icon: right-arrow
+    - text: Como pedir suporte
+      link: /operacao/suporte/
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Como usar esta wiki
+
+Use a busca para localizar um sistema ou navegue pelo setor responsável. Cada ficha deve informar finalidade, link público, responsável e procedimento de solicitação. Onde a documentação recuperada não comprova o dado, a página registra **A validar** em vez de assumir que o cadastro ou o acesso continuam vigentes.
+
+<CardGrid>
+
+<Card title="Catálogo por setor" icon="open-book">
+	Administração, saúde, educação, assistência, tributação, controle, TI e demais
+	sistemas.
+</Card>
+
+<Card title="Regra de segurança" icon="shield-check">
+	Nunca publique senhas, tokens, padrões de senha, IPs internos, endpoints
+	remotos ou dados pessoais.
+</Card>
+
+<Card title="Fonte e revisão" icon="approve-check">
+	Atualizações precisam apontar a fonte e a data de validação pelo setor
+	responsável.
+</Card>
+
+</CardGrid>
+
+## Escopo desta primeira versão
+
+O documento integral de origem não estava disponível como anexo na conversa recuperada. Por isso, esta versão organiza os sistemas mencionados no pedido e deixa lacunas explícitas para a conferência do documento “Sistemas de Gestão e Orientações de Acesso”.
